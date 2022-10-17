@@ -1,0 +1,31 @@
+{
+  "name": "lit-starter",
+  "version": "1.0.0",
+  "description": "Starting point for a lit project with rollup and web-dev-server.",
+  "keywords": [
+    "starter",
+    "scaffold",
+    "template",
+    "project",
+    "lit",
+    "web",
+    "dev",
+    "server",
+    "rollup"
+  ],
+  "homepage": "https://github.com/WhizzoCode/lit-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhizzoCode/lit-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WhizzoCode/lit-starter/issues"
+  },
+  "author": {
+    "name": "Sergio Martín",
+    "email": "sergio@sergiomartin.dev",
+    "url": "https://www.sergiomartin.dev"
+  },
+  "license": "MIT",
+  "type": "module"
+}
