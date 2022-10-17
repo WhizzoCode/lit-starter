@@ -27,5 +27,8 @@
     "url": "https://www.sergiomartin.dev"
   },
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "lit": "^2.4.0"
+  }
 }
