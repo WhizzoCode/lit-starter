@@ -30,5 +30,16 @@
   "type": "module",
   "dependencies": {
     "lit": "^2.4.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-html": "^1.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "rollup": "^3.2.3",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-css-only": "^4.1.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && rollup -c",
+    "build:watch": "rm -rf dist && rollup -c -w"
   }
 }
