@@ -1,0 +1,48 @@
+{
+  "name": "lit-starter",
+  "version": "1.0.0",
+  "description": "Starting point for a lit project with rollup and web-dev-server.",
+  "keywords": [
+    "starter",
+    "scaffold",
+    "template",
+    "project",
+    "lit",
+    "web",
+    "dev",
+    "server",
+    "rollup"
+  ],
+  "homepage": "https://github.com/WhizzoCode/lit-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhizzoCode/lit-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WhizzoCode/lit-starter/issues"
+  },
+  "author": {
+    "name": "Sergio Martín",
+    "email": "sergio@sergiomartin.dev",
+    "url": "https://www.sergiomartin.dev"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "lit": "^2.4.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-html": "^1.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@web/dev-server": "^0.1.35",
+    "rollup": "^3.2.3",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-css-only": "^4.1.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && rollup -c",
+    "build:watch": "rm -rf dist && rollup -c -w",
+    "serve": "web-dev-server --root-dir dist --open",
+    "serve:watch": "web-dev-server --root-dir dist --open --watch"
+  }
+}
