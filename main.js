@@ -1,6 +1,4 @@
-import { TheApp } from './lib/TheApp.js';
-
-import './style.css';
+import './src/the-app.js';
 
 const app = document.createElement('the-app');
 document.body.appendChild(app);

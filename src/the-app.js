@@ -1,10 +1,16 @@
-import {LitElement, html} from 'lit';
+import {LitElement, css, html} from 'lit';
 
 export class TheApp extends LitElement {
 
   constructor() {
     super();
   }
+
+  static styles = css`
+    :host {
+      color: tomato;
+    }
+  `;
 
   render() {
     return html`

@@ -1,6 +1,6 @@
 {
   "name": "lit-starter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Starting point for a lit project with rollup and web-dev-server.",
   "keywords": [
     "starter",
@@ -29,20 +29,17 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "lit": "^2.4.0"
+    "lit": "^2.4.1"
   },
   "devDependencies": {
-    "@rollup/plugin-html": "^1.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
     "@web/dev-server": "^0.1.35",
-    "rollup": "^3.2.3",
-    "rollup-plugin-copy": "^3.4.0",
-    "rollup-plugin-css-only": "^4.1.0"
+    "rollup": "^3.2.5",
+    "rollup-plugin-copy": "^3.4.0"
   },
   "scripts": {
+    "dev": "web-dev-server --node-resolve --open --watch",
     "build": "rm -rf dist && rollup -c",
-    "build:watch": "rm -rf dist && rollup -c -w",
-    "serve": "web-dev-server --root-dir dist --open",
-    "serve:watch": "web-dev-server --root-dir dist --open --watch"
+    "servebuild": "web-dev-server --root-dir dist --open"
   }
 }
