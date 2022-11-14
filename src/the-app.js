@@ -8,7 +8,7 @@ export class TheApp extends LitElement {
 
   static styles = css`
     :host {
-      color: tomato;
+      display: block;
     }
   `;
 
