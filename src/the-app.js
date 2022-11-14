@@ -2,8 +2,13 @@ import {LitElement, css, html} from 'lit';
 
 export class TheApp extends LitElement {
 
+  static properties = {
+    myValue: { type: Number }
+  };
+
   constructor() {
     super();
+    this.myValue = 0;
   }
 
   static styles = css`
