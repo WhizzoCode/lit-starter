@@ -8,7 +8,10 @@ export default {
     resolve(),
     copy({
       targets: [
-        { src: [ 'index.html', 'assets' ], dest: 'dist' }
+        {
+          src: [ 'index.html', 'assets' ],
+          dest: 'dist'
+        }
       ]
     })
   ]
